@@ -61,9 +61,9 @@ function enviarAtualizacao(input) {
   );
   client.messages
     .create({
-      from: "whatsapp:TWILIO_NUMERO",
+      from: "whatsapp:TWILIO_NUMERO_DE_TELEFONE",
       body: input,
-      to: "whatsapp:SEU_NUMERO",
+      to: "whatsapp:SEU_NUMERO_DE_TELEFONE",
     })
     .then((message) => console.log(message.sid));
 }
@@ -75,9 +75,9 @@ function mensagemDivisao() {
   );
   client.messages
     .create({
-      from: "whatsapp:TWILIO_NUMERO",
+      from: "whatsapp:TWILIO_NUMERO_DE_TELEFONE",
       body: "*-------------Atualizações-------------*",
-      to: "whatsapp:SEU_NUMERO",
+      to: "whatsapp:SEU_NUMERO_DE_TELEFONE",
     })
     .then((message) => console.log(message.sid));
 }
