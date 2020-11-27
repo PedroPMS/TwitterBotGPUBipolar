@@ -22,7 +22,7 @@ O comando irá baixar todas as dependências do projeto.
 
 ## Dependências
 
-Para o bot funcionar é necessário tem uma conta de desenvolvedo do Twitter, para ter acesso as chaves necessárias para configurar o bot. Você consegue elas aqui:
+Para o bot funcionar é necessário ter uma conta de desenvolvedor do Twitter, para ter acesso as chaves necessárias para configurar o bot. Você consegue elas aqui:
 
 ```shell
 https://developer.twitter.com/en
