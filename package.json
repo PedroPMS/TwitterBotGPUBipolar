@@ -1,0 +1,29 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "Esse bot busca os últimos 200 tweets de uma página que atualiza preços de placas de vídeo, faz um filtro apenas para as que você gostaria de se informar e te encaminha por Whatsapp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Paulo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.1.0",
+    "node-schedule": "^1.3.2",
+    "random-item": "^3.0.0",
+    "sequelize": "^5.21.10",
+    "twilio": "^3.52.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroPMS/TwitterBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PedroPMS/TwitterBot/issues"
+  },
+  "homepage": "https://github.com/PedroPMS/TwitterBot#readme"
+}
